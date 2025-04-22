@@ -1,14 +1,13 @@
 {
-    "name": "bolt-backed",
-    "version": "1.0.0",
-    "scripts": {
-      "start": "json-server --watch db.json --port 10000"
-    },
-    "dependencies": {
-      "json-server": "^0.17.3"
-    },
-    "engines": {
-      "node": "20.x"
-    }
+  "name": "bolt-backed",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node_modules/.bin/json-server --watch db.json --port 10000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "engines": {
+    "node": "20.x"
   }
-  
+}
